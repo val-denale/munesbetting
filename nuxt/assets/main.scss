@@ -1,0 +1,145 @@
+
+
+$main-color: #2A324B;
+$item-color: #DFDFDF;
+$item-hover-color: #EAEAEA;
+
+
+$navbar-dropdown-border-top: none;
+
+@media screen and (min-width: 1024px) {
+  .navbar-dropdown .navbar-item {
+    color: #333333 !important;
+  }
+}
+
+.button.is-link[disabled], fieldset[disabled] .button.is-link {
+  -webkit-filter: opacity(0.5) !important;
+}
+
+.wrapper {
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+  }
+
+  .site__content {
+    flex: 1;
+    margin-bottom: 5rem;
+  }
+
+.navbar-brand {
+    padding-right: 1rem;
+}
+
+.footer {
+  background: none !important;
+}
+
+.is-main-color {
+    background-color: $main-color;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    box-shadow: none !important;
+  }
+}
+
+.has-text-main-color {
+    color: #D8E1FF !important;
+}
+
+.is-custom-size {
+  min-height: 20rem;
+}
+
+.has-text-second-color {
+    color: #C7CCDB !important;
+}
+
+.navbar-burger:hover {
+  background: none !important;
+  color: $item-color;
+}
+
+$carousel-arrow-color: $main-color;
+#hero-image {
+    background-image: url(../assets/image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero-other-image {
+    background-image: url(../assets/darkenesport.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero-account-image {
+    background-image: url(../assets/darkenesport.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-navbar-item {
+    color: $item-color !important;
+}
+
+.custom-navbar-item:hover {
+    color: $item-hover-color !important;
+}
+
+$navbar-background-color : transparent;
+$navbar-item-color: $item-color;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-hover-color: $item-hover-color;
+$navbar-height: 5rem;
+
+$button-focus-color: $item-hover-color;
+$button-focus-border-color: none;
+$button-focus-box-shadow-color: none;
+
+$footer-padding: 1.5rem 1.5rem 1.5rem;
+
+$navbar-dropdown-arrow: $item-color;
+
+.button {
+    &.is-main-color {
+        background-color: #4A5899;
+        border-color: transparent;
+        color: $item-color;
+    }
+    &.is-main-color:hover {
+        border-color: transparent;
+        color: $item-color;
+    }
+}
+
+#custom-box {
+    min-height: 500px;
+}
+
+#section2 {
+    position: relative;
+    top:-50px;
+}
+
+@media screen and (max-width: 1023px) {
+  #section2 {
+    top: 50px;
+  }
+
+}
+
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+@import "https://cdn.jsdelivr.net/npm/bulma-pricingtable@0.2.0/dist/css/bulma-pricingtable.min.css";
+
+
+
+
